@@ -1,11 +1,6 @@
 [build]
   command = "pip install -r requirements.txt"
-  functions = "functions"
   publish = "."
-
-[functions]
-  directory = "functions"
-  runtime = "python3.11"
 
 [[redirects]]
   from = "/*"
